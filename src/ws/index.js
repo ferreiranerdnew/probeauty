@@ -22,6 +22,15 @@ app.set('port', 8000);
 app.use('/salao', require('./src/routes/salao.routes'));
 app.use('/servico', require('./src/routes/servico.routes'));
 
+// ROTA PADRÃO
+app.get('/', (req, res) => {
+  res.send('API Online. Use /salao ou /servico.');
+});
+
+app.listen(app.get('port'), () => { 
+  console.log(`WS Escutando na porta ${app.get('port')}`);
+});
+
 app.listen(app.get('port'), () => { 
   console.log(`WS Escutando na porta ${app.get('port')}`);
 });
