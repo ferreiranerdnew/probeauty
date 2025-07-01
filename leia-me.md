@@ -44,7 +44,8 @@ precisa criar um novo projeto apos criação criar um Cluster
  ferreiranerdphf
  xbjK6BT16fd6QubP
 
-dentro da pasta ws executar o comando yarn add mongoose
+dentro da pasta ws executar o comando 
+yarn add mongoose
 
 fazer o curso de javascript do zero 
 https://www.youtube.com/watch?v=srcN3W73SgE&list=PL_Axpn7FrXHRgMwxB3EJiR6p0Ug2GcbIq
