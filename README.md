@@ -8,6 +8,14 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
    ```bash
    npm install
+   npm install --global yarn
+   yarn add mongoose
+   yarn add express morgan   
+   yarn add mongoose
+   yarn add cors
+   yarn add connect-busboy busboy-body-parser aws-sdk
+   yarn add busboy
+   npm install nodemon --save-dev
    ```
 
 2. Start the app
